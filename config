@@ -1,0 +1,30 @@
+
+
+
+public class Config {
+
+    public static final String[] M800DefaultVerificationHosts = new String[]{"key"};
+    public static final String[] M800DefaultIMHosts = new String[]{"key"};
+    public static final String[] M800HTTPSignupHosts = new String[]{"key"};
+    public static final String jpush_appkey = "key";
+    public static final String google_geo_api_key = "key";
+    public static final String file_provider_authority = "key";
+    public static final String M800DefaultPhoneApplicationKey = "key";
+    public static final String M800DefaultPhoneApplicationSecret = "key";
+    public static final String M800DefaultTabletApplicationKey = "key";
+    public static final String M800DefaultTabletApplicationSecret = "key";
+    public static final String M800DefaultDeveloperKey = "key";
+    public static final String M800DefaultDeveloperSecret = "key";
+    public static final String M800DefaultApplicationIdentifier = "key";
+    public static final String M800DefaultApplicationVersion = "key";
+    public static final String M800DefaultCarrier = "key";
+    public static final String M800DefaultCapabilities = "key";
+    public static final String M800DefaultExperation = "key";
+    public static final String M800DefaultTargetServer = "key";
+    public static final String M800IMCert = "key";
+    public static final String M800MqttAppIdentifier = "key";
+    public static final String M800MqttDevKey = "key";
+    public static final String M800MqttDevSecret = "key";
+
+}
+
