@@ -17,51 +17,6 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
-//Easier way to bundle versioning
-ext {
-    supportLibraryVersion = '26.0.2'
-    googlePlayServicesVersion = '11.8.0'
-}
-
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2',
-            {
-                exclude group: 'com.android.support', module: 'support-annotations'
-            })
-    compile 'com.android.support:multidex:1.0.2'
-
-
-/*** M800 SDK dependencies ***/
-    implementation 'com.google.guava:guava:20.0'
-    implementation 'com.google.code.gson:gson:2.7'
-    implementation 'com.google.code.findbugs:jsr305:2.0.3'
-    implementation "com.google.android.gms:play-services-maps:
-      $playServicesVersion"
-    implementation "com.google.android.gms:play-services-location:
-      $playServicesVersion"
-    implementation "com.google.android.gms:play-services-gcm:
-      $playServicesVersion"
-    implementation "com.google.android.gms:play-services-places:
-       $playServicesVersion"
-    implementation 'com.googlecode.libphonenumber:libphonenumber:8.8.8'
-    implementation 'com.infstory:proguard-annotations:1.0.2'
-    implementation 'com.fasterxml.jackson.core:jackson-core:2.4.1'
-    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.4.1'
-
-    implementation 'com.github.tony19:logback-android-core:1.1.1-4'
-    implementation 'com.github.tony19:logback-android-classic:1.1.1-4'
-    implementation 'org.slf4j:slf4j-api:1.7.6'
-
+  
 
 
