@@ -1,0 +1,12 @@
+
+
+
+public class Config {
+
+    public static final String[] DefaultVerificationHosts = new String[]{"key"};
+    public static final String[] DefaultIMHosts = new String[]{"key"};
+    public static final String[] HTTPSignupHosts = new String[]{"key"};
+  
+
+}
+
